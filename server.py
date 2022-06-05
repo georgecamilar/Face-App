@@ -2,12 +2,16 @@ import flask
 from flask import Flask, jsonify, request
 from api.repository.Repository import Repository
 
-# from network.test import Network
+from network.test import Network
 
 # initialize the REST API
 
 # initialize neural network
-# neural_net = Network()
+neural_net = Network("./weights")
+
+print("---------------------------")
+print("Neural Network is loaded")
+print("---------------------------")
 
 # Markups locations
 markups = "./templates/"

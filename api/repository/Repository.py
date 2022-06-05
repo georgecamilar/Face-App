@@ -9,9 +9,9 @@ class Repository:
         return mysql.connector.connect(
             host='localhost',
             user='test',
-            port=3000,
+            port=8889,
             password='test',
-            # database='licenta'
+            database='licenta'
         )
 
     def add_user(self, user):

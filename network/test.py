@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 
-import train
+from network import train
 
 DEFAULT_SAVE_FOLDER = "./weights"
 
